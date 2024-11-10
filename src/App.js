@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Websites from './pages/Websites';
+import WebApp from './pages/WebApps';
+import DataPro from './pages/DataPro';
+import { useRef } from 'react';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
+
+
 
 function App() {
+    const websitesRef = useRef(null);
+
+    const scrollToWebsites = () => {
+        if (websitesRef.current) {
+        websitesRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Navbar scrollToWebsites={scrollToWebsites} />
+        <Home />
+        <div ref={websitesRef}>
+            <Websites />
+            <WebApp />
+            <DataPro />
+        </div>
+        <Footer />
+      </Router>
+    </>
   );
 }
 
