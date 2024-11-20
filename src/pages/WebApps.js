@@ -9,7 +9,7 @@ function WebApp() {
     <>  
       <div className='WebApp'>
           <div className='carousel'>
-            <h1 className='bod'> Tu MAI2 </h1>
+            <h1 className='bod'> Webapps </h1>
             <h1 className='bod'> Tu MAI2 </h1>
             <h1 className='bod'> Tu MAI2 </h1>
             <h1 className='bod'> Tu MAI2 </h1>

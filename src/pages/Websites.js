@@ -9,7 +9,7 @@ function Websites() {
     <>  
       <div className='Websites'>
           <div className='carousel'>
-            <h1 className='bod'> Tu MAI </h1>
+            <h1 className='bod'> Websites </h1>
             <h1 className='bod'> Tu MAI </h1>
             <h1 className='bod'> Tu MAI </h1>
             <h1 className='bod'> Tu MAI </h1>

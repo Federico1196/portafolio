@@ -1,12 +1,10 @@
 .DataPro {
     width: 100%;
-    min-height: 100vh; /* Ensures it takes up the full viewport height */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: rgb(227, 224, 224);
-    padding-top: 20%;
     background-color: rgb(89, 116, 196);
 }
 

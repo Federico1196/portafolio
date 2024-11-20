@@ -9,7 +9,7 @@ function DataPro() {
     <>  
       <div className='DataPro'>
           <div className='carousel'>
-            <h1 className='bod'> Tu MAI3 </h1>
+            <h1 className='bod'> DataPro </h1>
             <h1 className='bod'> Tu MAI4 </h1>
             <h1 className='bod'> Tu MAI5 </h1>
             <h1 className='bod'> Tu MAI6 </h1>
