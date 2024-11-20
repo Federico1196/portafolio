@@ -5,7 +5,7 @@ function Navbar({ scrollToWebsites }) {
   return (
     <>
       <div className="navbar">
-        <h1><a href="/">Federico Urraca</a></h1>
+        <h1><a href="/portafolio">Federico Urraca</a></h1>
         <div className="center-nav"> 
           <a onClick={scrollToWebsites} style={{ cursor: 'pointer' }}>Websites</a>
           <a onClick={scrollToWebsites} style={{ cursor: 'pointer' }}>Web Applications</a>
